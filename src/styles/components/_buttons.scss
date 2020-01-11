@@ -1,0 +1,40 @@
+.big-button {
+	background: $purple;
+	// sass reference functions
+	border: none;
+	border-bottom: 0.6rem solid darken($purple, 10%);
+	color: white;
+	font-weight: bold;
+	font-size: $l-size;
+	padding: 2.4rem;
+	width: 100%;
+	margin-bottom: $m-size;
+}
+.big-button:disabled {
+	opacity: 0.5;
+}
+@media(min-width:$desktop-breakpoint) {
+	.big-button {
+		margin-bottom: $l-size;
+	}
+
+}
+.button {
+	background-color: $purple;
+	border: none;
+	border-bottom: 0.3rem solid darken($purple, 10%);
+	font-weight: 500;
+	color: white;
+	padding: $s-size;
+
+}
+
+//bem block elemets modifier
+.button--link {
+	background: none;
+	border: none;
+	color: $off-white;
+	padding: 0;
+	
+}
+
