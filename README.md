@@ -7,6 +7,7 @@ yarn install
 yarn run dev-server
 
 URL: http://localhost:3000/
+https://www.youtube.com/watch?v=J_SEMZKFxtw&list=PLoH-uUW2wEIQU3diUzrpFaFOcXM8z8gBc&index=4
 ```
 #### Preview
 
